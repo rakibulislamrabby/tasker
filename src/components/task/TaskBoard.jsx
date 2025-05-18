@@ -11,12 +11,10 @@ export default function TaskBoard() {
           <div className="p-2 flex justify-end">
             <SearchTask />
           </div>
-
+          {/* task action and list  */}
           <div className="rounded-xl border border-[rgba(206,206,206,0.12)] bg-[#1D212B] px-6 py-8 md:px-9 md:py-16">
             <TaskAction />
             <TaskList />
-
-           
           </div>
         </div>
       </section>
