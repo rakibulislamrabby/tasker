@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Integration API",
+    "description": "Connect an existing API to a third-party database using secure methods and handle data exchange efficiently.",
+    "tags": [
+      { "name": "Web", "color": "#00D991A1" },
+      { "name": "Python", "color": "#1C92FFB0" },
+      { "name": "API", "color": "#FE1A1AB5" }
+    ],
+    "priority": "High",
+    "isFavorite": true
+  },
+  {
+    "id": 2,
+    "title": "API Data Synchronization with Python",
+    "description": "Implement a Python solution to synchronize data between an API and a third-party database securely, optimizing data exchange.",
+    "tags": [
+      { "name": "Python", "color": "#00D991A1" },
+      { "name": "API", "color": "#FE1A1AB5" },
+      { "name": "Data Synchronization", "color": "#BD560BB2" }
+    ],
+    "priority": "High",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "title": "Efficient Web API Connectivity in Python",
+    "description": "Develop a Python-based solution for connecting an API to a third-party database securely, focusing on efficient data handling and exchange.",
+    "tags": [
+      { "name": "Web", "color": "#00B2D9CC" },
+      { "name": "Python", "color": "#8407E6A8" },
+      { "name": "API", "color": "#07AC67D6" }
+    ],
+    "priority": "High",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "title": "Data Handling",
+    "description": "Integrate a web API with a third-party database using secure methods, focusing on seamless data exchange and data integrity.",
+    "tags": [
+      { "name": "Web", "color": "#2F43F8BF" },
+      { "name": "Python", "color": "#AE6D0BDB" },
+      { "name": "Security", "color": "#10FBEDB2" }
+    ],
+    "priority": "High",
+    "isFavorite": false
+  }
+] 

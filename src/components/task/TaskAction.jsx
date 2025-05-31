@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function TaskAction() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const addTask = () => {
+    console.log('add task')
+    setIsModalOpen(true)
+  }
   return (
     <div className="mb-14 items-center justify-between sm:flex">
               <h2 className="text-2xl font-semibold max-sm:mb-4">Your Tasks</h2>
