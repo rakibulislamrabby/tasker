@@ -1,10 +1,8 @@
-import React from 'react'
-import tasksData from '../../data/tasks.json'
+import React, { useState } from 'react'
 import { IoMdStarOutline } from 'react-icons/io'
 import { IoStar } from 'react-icons/io5'
 
-export default function TaskList() {
-
+export default function TaskList({ tasks }) {
   return (
     <div>
       <table className="table-fixed overflow-auto xl:w-full">
@@ -34,7 +32,7 @@ export default function TaskList() {
           </tr>
         </thead>
         <tbody>
-          {tasksData.map((task) => (
+          {tasks.map((task) => (
             <tr key={task.id} className="border-b border-[#2E3443] [&>td]:align-baseline [&>td]:px-4 [&>td]:py-2">
               <td>
                 {task.isFavorite ?<IoStar className='text-yellow-500' /> :<IoMdStarOutline /> }
